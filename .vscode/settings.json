@@ -1,0 +1,24 @@
+{
+  "prettier.configPath": "./.prettierrc",
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "dist/**": true,
+    "apps/admin-*/**": true,
+    "apps/commerce-*/**": false
+  },
+  "explorerExclude.backup": null
+}
